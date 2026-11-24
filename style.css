@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+#box {
+    outline: 3px solid #FF0000;
+    outline-offset: 0px;
+    margin: 0 8.5% 0 8.5%;
+    padding: 1% 2% 1% 2%;
+}
+#heads {
+    outline: 3px solid #FF0000;
+    outline-offset: 0px;
+    margin: 0.5% 8.5% 1.5% 8.5%;
+    padding: 10px;
+}
+#mountain {
+    float: left;
+    display: block;
+    margin-left: 0.1%;
+    margin-right: 2%;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+}
+#main-img {
+    width: 32vw;
+}
+h1 {
+    text-align: center;
+    color:#FF0000;
+    text-decoration: underline;
+    background: #FFFF00;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
+}
+figcaption {
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-top: 0.1%;
+}
+#intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#links {
+    text-align: center; 
+}
+footer {
+    font-size: 14px;
+}
+#hidden
+    {
+        color: black;
+        display: inline;
+    }
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+#indicate {
+    text-align: center;
+    text-decoration: underline;
+}
+#sidebar {
+    display:block;
+    float: left;
+    border: 3px solid #FF0000;
+    width: 150px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+#sidebar p {
+    border-bottom: 2px solid #FF0000;
+    font-size: 14px;
+}
+#sidebar p:last-child {
+    border-bottom: none;
+    padding: 0%;
+}
+#sidetitle {
+    border-bottom: 2px solid #FF0000;
+}
+h4 {
+    font-weight: 2%;
+    text-align: center;
+}
+.left-img {
+    float: left;
+    display: block;
+    margin-left: 0.1%;
+    margin-right: 2.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+}
+.right-img {
+    float: right;
+    display: block;
+    margin-left: 2.5%;
+    margin-right: 0.1%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+}
+.small-img {
+    width: 25vw;
+}
+#names em {
+    text-decoration: underline;
+}
